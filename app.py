@@ -104,6 +104,6 @@ if not df.empty:
         if variation > 0:
             st.warning("⚠️ La tendance est à la hausse. Une surveillance accrue est nécessaire.")
         else:
-            st.success("✅ La tendance est à la baisse ou stable. Les mesures semblent efficaces.")
-
+            st.success("✅ La tendance est à la baisse ou stable. Les mesures semblent efficaces.") 
+            
 st.write("Réalisé par Raphaël Noyer")
