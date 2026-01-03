@@ -106,4 +106,5 @@ if not df.empty:
         else:
             st.success("✅ La tendance est à la baisse ou stable. Les mesures semblent efficaces.") 
             
-st.write("Réalisé par Raphaël Noyer")
+st.markdown("---") # Ligne de séparation
+st.caption("Réalisé par Raphaël Noyer | Projet Étudiant Biologie")
